@@ -1,0 +1,83 @@
+
+<header>
+  <!-- navbar -->
+ <nav class="navbar navbar-expand-md navbar-light" id="myDIV">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link treatments-nav" href="treatments.html" id="shubham">treatments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link products-nav" href="products.html">products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link booking-nav" href="booking.html">booking</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="index.html">
+          <img src="img/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link careers-nav" href="career.html">careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link about-nav" href="about.html">about us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link contact-nav" href="contact.html">contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</header>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+    var geturl = window.location.href;
+    var pagename = geturl.split('/');
+    var currentpage = pagename[4];
+    
+   if(currentpage == 'treatments.html'){
+    
+     $('.nav-link').removeClass('active-nav');
+     $('.treatments-nav').addClass('active-nav');
+
+   }
+
+   if(currentpage == 'products.html'){
+     $('.nav-link').removeClass('active-nav');
+     $('.products-nav').addClass('active-nav');
+   }
+
+   if(currentpage == 'booking.html'){
+     $('.nav-link').removeClass('active-nav');
+     $('.booking-nav').addClass('active-nav');
+   }
+
+   if(currentpage == 'career.html'){
+     $('.nav-link').removeClass('active-nav');
+     $('.careers-nav').addClass('active-nav');
+   }
+
+   if(currentpage == 'about.html'){
+     $('.nav-link').removeClass('active-nav');
+     $('.about-nav').addClass('active-nav');
+   }
+
+   if(currentpage == 'contact.html'){
+     $('.nav-link').removeClass('active-nav');
+     $('.contact-nav').addClass('active-nav');
+   }
+
+</script>
+
+

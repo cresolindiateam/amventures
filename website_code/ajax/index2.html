@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+
+    <div class="container">
+    	<div id="loaddata">
+    		this is going to be change....
+    	</div>
+
+    	<button class="btn btn-primary" onclick="myfun()">Change</button>
+
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        
+        function myfun(){
+        	var req = new XMLHttpRequest();
+    	    req.open('GET', 'load2.html', true);
+    	    req.send();
+    	    req.onreadystatechange =  function (){
+    		if(req.readyState == 4 && req.status == 200 ){
+    			document.getElementById('loaddata').innerHTML = req.responseText;
+    		}
+    	  }
+        }
+
+    </script>   
+</body>
+</html>

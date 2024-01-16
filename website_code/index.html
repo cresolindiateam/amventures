@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sheer Beauty Bar</title>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the beauti website">
+  <meta name="keywords" content="Enzyme, Edmonton enzyme, Enzyme edmonton, Edmonton facial, Facial, Dermaplaning, Edmonton dermaplaning 
+Dermal infusion, Edmonton dermal infusan, Microdermabrasion, Edmonton microdermabrasion, Silk peel, Microneedling, Edmonton Microneedling 
+,Oxygen facial, Edmonton oxygen facial, Casmara mask, Edmonton casmara mask, High Frequency facial, Edmonton high Frequency facial, Led therapy, Edmonton led therapy, Medi spa, Edmonton Medi spa, Waxing, Edmonton waxing, Acne treatments, Acne facial, Dmk skin, Dmk, Anti aging treatments">
+  <meta name="author" content="spa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/aos_styles.css" />
+  <link rel="stylesheet" href="aos_dist/aos.css" />
+
+
+
+</head>
+<body>
+
+<div id="header"></div>
+<!-- banner -->
+ 
+ <div class="container-fluid">
+ <section class="banner ">
+     <h2 >edmontons luxury facial bar</h2>
+ </section>
+ </div>
+<!-- booknow -->
+<div class="booknow text-center">
+     <p>beautiful skin starts here.</p>
+     <a href="booking.html" data-aos="fade-up" class="btn-border mt-auto animated fadeInDown ">book now</a>
+</div>
+
+ <!-- circle_links -->
+
+ <div class="container">
+
+  <section>
+      <div class="circle_links">
+         <div class="row">
+             <div class="col-md-4 circle_links_img" data-aos="fade-up">
+              <a href="treatments.html">
+                 <img src="img/treatments.jpg">
+                 <h3>treatments </h3>
+              </a>
+              <a href="treatments.html" class="btn-mid">Know More </a>
+             </div>
+             <div class="col-md-4 circle_links_img" data-aos="fade-up">
+               <a href="about.html">
+                 <img src="img/about_us.jpg">
+                  <h3>about us</h3>
+                </a>
+                <a href="about.html" class="btn-mid">Know More </a>
+             </div>
+             <div class="col-md-4 circle_links_img" data-aos="fade-up">
+               <a href="products.html">
+                 <img src="img/products.jpg">
+                 <h3>products</h3>
+               </a>
+                <a href="products.html" class="btn-mid">Know More </a>
+             </div>
+             <div class="col-md-4 circle_links_img" data-aos="fade-up">
+               <a href="booking.html">
+                 <img src="img/booking.jpg">
+                 <h3>booking</h3>
+               </a>
+                <a href="booking.html" class="btn-mid">Know More </a>
+             </div>
+              
+             <div class="col-md-4 circle_links_img" data-aos="fade-up">
+               <a href="career.html">
+                 <img src="img/career.jpg">
+                 <h3>careers</h3>
+               </a>
+                <a href="career.html" class="btn-mid">Know More </a>
+             </div>
+             <div class="col-md-4 circle_links_img" data-aos="fade-up">
+               <a href="contact.html">
+                 <img src="img/contact.jpg">
+                 <h3>contact</h3>
+               </a>
+                <a href="contact.html" class="btn-mid">Know More </a>
+             </div>
+          </div>
+       </div>
+   </section>
+ </div> 
+
+
+
+<!-- special-text -->
+<div class="special-text text-center" data-aos="fade-up">
+  <div class="special-text-quote">sheer</div>
+     less stress more facials
+</div> 
+
+<!-- footer -->
+
+<div id="footer"></div>
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" ></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+    $('#header').load('header.html')
+    $('#footer').load('footer.html')
+   })
+</script>
+
+
+
+<script type="text/javascript">
+  var header = document.getElementById("myDIV")
+   var item = header.getElementsByClassName('my-item')
+
+   for(var i=0; i<item.lenght; i++){
+       item[i].addEventListener('click', function(){
+
+        alert('sadasd');
+        var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+       });
+   }
+
+</script>
+<script src="aos_dist/aos.js"></script>
+
+<script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+</script>
+
+  </body>
+ 
+</body>
+</html>

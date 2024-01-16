@@ -1,0 +1,863 @@
+@font-face {
+  font-family: "Helvetica Neu";
+  src: url("../fonts/HelveticaNeueMed.ttf")
+}
+
+@font-face {
+  font-family: "Simple Monologue DEMO";
+  src: url("../fonts/Simple Monologue DEMO.ttf")
+}
+
+@font-face {
+  font-family: "Salvalyn Demo";
+  src: url("../fonts/Salvalyn Demo.ttf")
+}
+
+@font-face {
+  font-family: "bod72w--";
+  src: url("../fonts/bod72w--.ttf")
+}
+
+@font-face {
+  font-family: "Big Caslon Medium";
+  src: url("../fonts/Big Caslon Medium.ttf")
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	color: #231f20;
+  letter-spacing: 2px;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+header{
+	padding:0px 25px 0px 25px;
+
+}
+
+.btn-border{
+   border: 2px solid #231f20;
+   padding:8px 30px 8px 30px;
+   color: #231f20;
+   -webkit-transition: background-color 0.5s ease-out;
+   -moz-transition: background-color 0.5s ease-out;
+   -o-transition: background-color 0.5s ease-out;
+   transition: background-color 0.5s ease-out;
+   
+}
+
+.btn-border:hover{
+  background-color: #e9e8e8;
+  color: #231f20;
+}
+
+
+
+.btn-white{
+   border: 2px solid #231f20;
+   background: white;
+   padding:8px 30px 8px 30px;
+   color: #231f20;
+   -webkit-transition: background-color 0.5s ease-out;
+   -moz-transition: background-color 0.5s ease-out;
+   -o-transition: background-color 0.5s ease-out;
+   transition: background-color 0.5s ease-out;
+}
+
+.btn-white:hover{
+    background-color: #e9e8e8;
+    color: #231f20 !important;
+}
+
+.navbar-brand img{
+	width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #231f20 !important;
+    letter-spacing: 2px;
+}
+
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.nav-item a{
+  transition: background-color 0.5s ease;
+
+}
+
+.nav-item a:hover{
+   background: #f7f7f7d4;
+   transition-timing-function: linear;
+}
+
+.banner{
+  background-image: url(../img/header_img.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  height:100vh;
+  background-size: cover;
+  display: flex;
+}
+
+.banner h2{
+	text-align: center;
+	font-family: 'Simple Monologue DEMO';
+	font-size: 80px;
+	margin: auto;
+	/*padding-top: 180px;*/
+}
+
+
+.banner-about{
+  background-image: url(../img/banner_about.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  height:100vh;
+  background-size: cover;
+  display: flex;
+}
+
+.banner-about h2{
+	text-align: center;
+	font-family: 'Simple Monologue DEMO';
+	font-size: 80px;
+	margin: auto;
+	/*padding-top: 180px;*/
+}
+
+
+.banner-career{
+	background-image: url(../img/banner_career.jpg);
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+.banner-career h2{
+	text-align: center;
+	font-family: 'Simple Monologue DEMO';
+	font-size: 60px;
+	margin: auto;
+}
+
+.banner-products{
+	background-image: url(../img/banner_products.jpg);
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+   
+}
+
+.banner-products h2{
+	text-align: center;
+	font-family: 'Salvalyn Demo';
+	font-size: 30px;
+	margin: auto;
+}
+
+.banner-treatment-page{
+	background-image: url(../img/banner_treament_page.jpg);
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    
+}
+
+.banner-treatment-page h2{
+	text-align: center;
+	font-family: 'Salvalyn Demo';
+	font-size: 30px;
+	margin: auto;
+}
+
+
+.banner-about img{
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.banner-faq{
+  background-image: url(../img/banner_faq.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+
+.banner-faq h2{
+  text-align: center;
+  font-family: 'Salvalyn Demo';
+  font-size: 50px;
+  margin: auto;
+}
+
+
+
+.booknow{
+   padding: 15px;
+}
+
+.booknow a{
+	margin-top: 5px !important;
+	display: inline-block;
+}
+
+.circle_links{
+	display: flex;
+	justify-content: center;
+	padding:50px 0px 50px 0px;
+}
+
+.circle_links img{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+	display: block;
+  
+}
+
+.circle_links_img a{
+  text-decoration: none !important;
+}
+
+.circle_links_img img{
+  transition: opacity .5s ease;
+  backface-visibility: hidden;
+}
+
+.circle_links_img:hover img{
+ opacity: .5;
+}
+
+.btn-mid{
+    background: #231f20;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 30%;
+    margin: auto;
+    opacity: 0;
+    right: 0%;
+    padding: 5px;
+    cursor: pointer;
+    color: white !important;
+    transition: opacity 0.5s ease;
+   
+}
+
+
+.circle_links_img:hover .btn-mid{
+  display: block;
+  opacity: 1;
+  text-decoration: none;
+} 
+
+.circle_links h3{
+	text-align:center;
+	font-size: 16px;
+}
+
+
+.special-text{
+  font-family: 'Salvalyn Demo';
+  font-size: 60px;
+  position: relative;
+  width: 800px;
+  margin: auto;	
+}
+
+.special-text-quote{
+    right: 155px;
+    position: absolute;
+    font-family: 'Simple Monologue DEMO';
+    margin-top: -37px;
+}
+
+.main-heading{
+  font-family: 'Salvalyn Demo';
+  font-size: 60px;	
+}
+
+
+footer{
+	background: #d9d9d8;
+	padding:40px;
+	margin-top: 60px;
+}
+
+.hours h3{
+	font-size: 17px;
+	font-weight: 100px !important;
+}
+
+.hours ul{
+	list-style: none;
+	margin-top: 20px;
+	
+}
+
+.hours ul li{
+	font-size: 17px;
+	
+}
+
+.treatment-name{
+	border: 1px solid #231f20;
+	padding:10px;
+	text-align: center;
+}
+
+.treatments-row{
+	margin-bottom: 50px;
+}
+
+.description{
+	margin-top: 20px;
+}
+
+.section h2{
+	font-family: 'Simple Monologue DEMO'; 
+	font-size: 90px;
+}
+
+
+.table-treatments{
+  margin-top: 20px;
+}
+
+.table-treatments a{
+    border: 1px solid #231f20;
+    padding: 10px;
+    color: #231f20;
+    display: block;
+} 
+
+.table-treatments a:hover{
+    text-decoration: none;
+    background: #e6e5e5;
+    color: #231f20;
+}
+
+
+
+/*.section img{
+	width: 120px
+}*/
+
+.section-row{
+	margin-bottom: 30px;
+}
+
+.team-section{
+	margin-top: 20px;
+}
+
+.team-section img{
+	width: 120px;
+}
+
+.booking-section{
+	background-image: url(../img/booking_section_bg.jpg);
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+}
+
+.booking-section a{
+	display: block;
+	text-align: center;
+	width: 200px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.booking-btn-group {
+	margin: auto;
+}
+
+
+.designation{
+	font-family: 'Salvalyn Demo';
+	font-size: 23px;
+}
+
+.member-name{
+   font-family: 'Simple Monologue DEMO';
+   font-size: 40px;	
+   margin-top: 13px;
+}
+
+.img-mt-30{
+	margin-top: 30px;
+}
+
+.content-box {
+	border:1px solid #231f20;
+	height: 553px;
+	width: 100%;
+}
+
+.section-about-detail{
+	margin-top: 50px;
+}
+
+.section-about-detail h3{
+  font-family: 'Salvalyn Demo';
+}
+
+.section-about-detail img{
+	width: 100%;
+}
+
+.section-contact .form-control{
+	border: 1px solid #231f20 !important;
+	border-radius: 0px !important;
+	background: #fdfeff !important;
+}
+
+.map-box{
+	border: 1px solid #231f20 !important;
+	background: #fdfeff !important;
+	height: 320px;
+}
+
+.circle{
+	background: #efeeee;
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	border-radius: 100px;
+	font-family: 'bod72w--';
+	line-height: 80px;
+}
+
+.number{
+  font-family: 'bod72w--' !important;
+  font-weight: 600;
+  font-size:32px;
+}
+
+.mt-60{
+	margin-top: 60px;
+}
+
+.table-treatments thead tr th{
+	font-family: 'Salvalyn Demo'!important;
+	height: 100px;
+	font-size: 22px;
+	border-top: none;
+	border-bottom: none;
+}
+
+
+
+.table-treatments tbody tr td:first-child{
+	font-family: 'Salvalyn Demo'!important;
+	font-size: 22px;
+	border-top: none;
+	border-bottom: none;
+}
+
+.box{
+	border: 1px solid #231f20;
+	padding:10px;
+  -webkit-transition: background-color 0.5s ease-out;
+   -moz-transition: background-color 0.5s ease-out;
+   -o-transition: background-color 0.5s ease-out;
+   transition: background-color 0.5s ease-out;
+}
+
+.box:hover{
+  background-color: #e9e8e8;
+}
+
+.price-i-box{
+	border: 1px solid #231f20;
+	padding:10px;
+	margin-bottom: 50px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+
+}
+
+.price-i-box:hover{
+   background-color: #e9e8e8;
+}
+
+.price{
+	font-size:28px;
+	font-family:"Salvalyn Demo"!important;
+	font-weight: 600; 
+}
+
+.price-sub{
+	font-family:"Salvalyn Demo"!important;
+	font-size: 20px; 
+}
+
+.price-i{
+	font-family:"Salvalyn Demo"!important; 
+	font-weight: 600;
+  font-family: 'bod72w--';
+}
+
+.price-row a{
+	margin-top: 25px;
+	display: block;	
+}
+
+.price-i{
+	margin-top: -37px;
+  right: 0px;
+  font-size: 25px;
+  font-weight: 600;
+  right: 0px;
+  position: absolute;
+  font-family: 'bod72w--'!important;
+}
+
+.bod-font{
+  font-family: 'bod72w--'!important;
+}
+
+.individual-pricing{
+  margin-top: 80px;
+}
+
+.individual-pricing .row{
+   margin-top: 30px;
+}
+
+.total-price p{
+	text-transform: uppercase;
+	font-family:"Salvalyn Demo"!important; 
+}
+
+.add-ons{
+	width: 60%;
+	margin: auto;
+}
+
+.gray{
+	color: #d9d9d8;
+	font-family: 'bod72w--';
+}
+
+.add-ons .box{
+	margin-bottom: 20px;
+}
+
+.product-section img{
+	width: 100%;
+}
+
+
+.active-nav{
+  border-bottom: 4px solid black;
+  background: #f7f7f7d4;
+}
+
+.active-nav:after{
+	height: 10px;
+    width: 10px;
+    position: absolute;
+    content: '';
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin-top: 32px;
+    margin-left: -37px;
+}
+
+.highlight{
+	background: #efeeee;
+}
+
+.treatments-listing ul{
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 100px;
+
+}
+
+.before-after-treatment{
+  margin-top: 50px;
+}
+
+.before-after-treatment .main-heading{
+   font-size: 50px !important;
+}
+
+.faq-box{
+  margin-bottom: 20px;
+}
+
+.faq-box h3{
+ font-family: 'Salvalyn Demo';
+ margin-bottom: 0px;
+ text-transform: uppercase;
+ font-size: 22px
+}
+
+.bigger-heading{
+  font-family: 'Salvalyn Demo';
+  font-size: 150px;
+  text-align: right;
+}
+
+.verticalTableHeader {
+    text-align:center;
+    white-space:nowrap;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-family:'Salvalyn Demo'; 
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/*Responsive css */
+
+
+@media only screen and (max-width:992px){
+
+  .bigger-heading {
+    font-family: 'Salvalyn Demo';
+    font-size: 50px;
+    text-align: center;
+}
+
+  .faq-box h3{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+	.navbar-brand img {
+             width: 50%;
+    }
+
+    .special-text{
+    	width: 100%;
+    }
+
+
+   .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    float: right;
+    position: absolute;
+    right: -8px;
+    top: 14px;
+   }
+
+   .special-text {
+    font-family: 'Salvalyn Demo';
+    font-size: 40px;
+   }
+
+   .banner-about img{
+	text-align: center;
+	display: block;
+	margin: auto;
+	width:50%;
+	margin: auto;
+   }
+
+.section-about-detail h3{
+  font-family: 'Salvalyn Demo';
+  font-size: 15px;
+}
+
+.content-box {
+    border: 1px solid #231f20;
+    height: 100px;
+    width: 100%;
+}
+
+.treatment-name {
+    border: 1px solid #231f20;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-heading {
+    font-family: 'Salvalyn Demo';
+    font-size: 20px;
+}
+
+.circle {
+    background: #efeeee;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 100px;
+    font-family: 'Salvalyn Demo';
+    line-height: 40px;
+}
+
+
+.table-treatments{
+	font-size: 12px;
+}
+
+.table-treatments thead tr th {
+    font-family: 'Salvalyn Demo'!important;
+    height: 20px;
+    font-size: 15px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.banner-career {
+    background-image: url(../img/banner_career.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: unset !important;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+}
+
+.banner-career h2 {
+    text-align: center;
+    font-family: 'Simple Monologue DEMO';
+    font-size: 35px;
+    margin: auto;
+}
+
+.banner {
+    background-image: url(../img/header_img.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: unset !important;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+}
+
+.banner h2 {
+    text-align: center;
+    font-family: 'Simple Monologue DEMO';
+    font-size: 35px;
+    margin: auto;
+}
+
+
+.banner-treatment-page {
+    background-image: url(../img/banner_treament_page.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: unset !important;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+}
+
+.banner-treatment-page h2 {
+    text-align: center;
+    font-family: 'Salvalyn Demo';
+    font-size: 25px;
+    margin: auto;
+}
+
+
+.banner-products {
+    background-image: url(../img/banner_products.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: unset !important;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+}
+
+.banner-about {
+    background-image: url(../img/banner_about.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: unset !important;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+}
+
+.banner-products h2 {
+    text-align: center;
+    font-family: 'Salvalyn Demo';
+    font-size: 25px;
+    margin: auto;
+}
+
+.product-section img {
+    width: 50%;
+}
+
+
+.banner-career h2 img{
+  width: 15px !important;
+}
+
+.special-text-quote{
+  display: none; 
+}
+
+.navbar-nav{
+    background: white;
+    width: 100%;
+    text-align: center;
+
+}
+
+.navbar-nav li{
+  border: 1px solid #00000030;
+  margin-bottom: 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,394 @@
+/******************************************
+    Version: 1.0
+/****************************************** */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.address-item{
+		width: 30%;
+	}
+	.header_style_01 .navbar-light .navbar-nav > li a{
+		padding: 10px 12px;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.social-box{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.left-top{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.email-box{
+		margin: 0px;
+	}
+	.email-box a{
+		font-size: 14px;
+	}
+	.phone-box a{
+		font-size: 14px;
+	}
+	.megamenu .navbar-header{
+		width: 100%;
+	}
+	.header_style_01 .navbar-light .navbar-nav > li a{
+		display: block;
+	}
+	.navbar-light .navbar-brand img{
+		max-width: 170px;
+	}
+	.slide-text h1{
+		font-size: 28px;
+	}
+	.slide-text h2{
+		font-size: 13px;
+	}
+	.btn11{
+		font-size: 13px;
+		padding: 10px 30px;
+	}
+	.owl-next i, .owl-prev i{
+		line-height: 40px;
+	}
+	.slider-wrapper .owl-nav .owl-prev, .slider-wrapper .owl-nav .owl-next{
+		height: 40px;
+		width: 40px;
+	}
+	.home-one-slider-otem .slider-content-area{
+		height: 400px;
+	}
+	.message-box{
+		margin-bottom: 30px;
+	}
+	hr.hr1{
+		margin: 30px 0;
+	}
+	.stat-wrap div{
+		margin-bottom: 30px;
+	}
+	.stat-wrap p{
+		font-size: 28px;
+	}
+	.section-title h3{
+		font-size: 32px;
+	}
+	.customwidget h1{
+		font-size: 32px;
+	}
+	.image-center img{
+		margin: 30px 0 0px;
+		padding: 0px;
+	}
+	.footer .widget{
+		margin-bottom: 30px;
+	}
+	.footer-recent{
+		margin-bottom: 30px;
+	}
+	.megamenu .navbar-collapse ul{
+		margin-top: 30px;
+	}
+	.banner h2{
+		font-size: 38px;
+	}
+	.banner h2::after{
+		top: 0px;
+	}
+	.portfolio-filter ul li .btn-dark{
+		padding: 10px 20px;
+	}
+	.address-item{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.social-box{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.left-top{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.email-box{
+		margin: 0px;
+	}
+	.megamenu .navbar-header{
+		width: 100%;
+	}
+	.email-box a{
+		font-size: 14px;
+	}
+	.phone-box a{
+		font-size: 14px;
+	}
+	.header_style_01 .navbar-light .navbar-nav > li a{
+		display: block;
+	}
+	.navbar-light .navbar-brand img{
+		max-width: 170px;
+	}
+	.slide-text h1{
+		font-size: 28px;
+	}
+	.slide-text h2{
+		font-size: 13px;
+	}
+	.btn11{
+		font-size: 13px;
+		padding: 10px 30px;
+	}
+	.owl-next i, .owl-prev i{
+		line-height: 40px;
+	}
+	.slider-wrapper .owl-nav .owl-prev, .slider-wrapper .owl-nav .owl-next{
+		height: 40px;
+		width: 40px;
+	}
+	.home-one-slider-otem .slider-content-area{
+		height: 400px;
+	}
+	.message-box{
+		margin-bottom: 30px;
+	}
+	hr.hr1{
+		margin: 30px 0;
+	}
+	.stat-wrap div{
+		margin-bottom: 30px;
+	}
+	.stat-wrap p{
+		font-size: 28px;
+	}
+	.section-title h3{
+		font-size: 32px;
+	}
+	.customwidget h1{
+		font-size: 32px;
+	}
+	.image-center img{
+		margin: 30px 0 0px;
+		padding: 0px;
+	}
+	.footer .widget{
+		margin-bottom: 30px;
+	}
+	.footer-recent{
+		margin-bottom: 30px;
+	}
+	.megamenu .navbar-collapse ul{
+		margin-top: 30px;
+	}
+	.banner h2{
+		font-size: 38px;
+	}
+	.banner h2::after{
+		top: 0px;
+	}
+	.portfolio-filter ul li .btn-dark{
+		padding: 10px 20px;
+	}
+	.address-item{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+	.social-box{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.left-top{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.email-box{
+		margin: 0px;
+	}
+	.header_style_01 .navbar-light .navbar-nav > li a{
+		display: block;
+	}
+	.navbar-light .navbar-brand img{
+		max-width: 170px;
+	}
+	.slide-text h1{
+		font-size: 28px;
+	}
+	.slide-text h2{
+		font-size: 13px;
+	}
+	.btn11{
+		font-size: 13px;
+		padding: 10px 30px;
+	}
+	.owl-next i, .owl-prev i{
+		line-height: 40px;
+	}
+	.slider-wrapper .owl-nav .owl-prev, .slider-wrapper .owl-nav .owl-next{
+		height: 40px;
+		width: 40px;
+	}
+	.home-one-slider-otem .slider-content-area{
+		height: 400px;
+	}
+	.message-box{
+		margin-bottom: 30px;
+	}
+	hr.hr1{
+		margin: 30px 0;
+	}
+	.stat-wrap div{
+		margin-bottom: 30px;
+	}
+	.stat-wrap p{
+		font-size: 28px;
+	}
+	.section-title h3{
+		font-size: 32px;
+	}
+	.customwidget h1{
+		font-size: 32px;
+	}
+	.image-center img{
+		margin: 30px 0 0px;
+		padding: 0px;
+	}
+	.footer .widget{
+		margin-bottom: 30px;
+	}
+	.footer-recent{
+		margin-bottom: 30px;
+	}
+	.megamenu .navbar-collapse ul{
+		margin-top: 30px;
+	}
+	.banner h2{
+		font-size: 38px;
+	}
+	.banner h2::after{
+		top: 0px;
+	}
+	.portfolio-filter ul li .btn-dark{
+		padding: 10px 20px;
+	}
+	.address-item{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+	}
+	
+    .slide-text h2 {
+    font-size: 13px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.navbar-light .navbar-toggler {
+    padding: 10px 8px 8px 8px;
+    border-radius: 0px;
+    border-color: #f59b5b;
+    float: right;
+    margin-top: 40px;
+}
+
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.portfolio-filter ul li {
+    border-radius: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #999;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.logos .col-md-2{
+	padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+
+.logos .col-md-3{
+	padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+
+.footer {
+    padding: 20px 0 20px !important;
+    color: #999;
+    background-color: #393939;
+}
+
+.footer .widget-title {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer .widget p {
+    text-align: center;
+}
+
+.footer-contact{
+	text-align: center;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+    display: block;
+    width: 50%;
+    float: left;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
+.stat-wrap .col-md-3{
+	width:50%;
+}
+
+.stat-wrap .col-sm-2{
+	width:50%;
+}
+
+.stat-wrap h3 {
+    font-size: 15px !important;
+    }
+
+}
+
+
+
